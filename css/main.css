@@ -37,11 +37,36 @@
 body {
     min-height: 100vh;
     background-color: #060606;
+    overflow-x: hidden
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #060606;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: white; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #212121;
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1f1f1; 
 }
 
 .title-container {
@@ -250,6 +275,90 @@ a {
 .montserrat-regular {
     font-family: var(--montserrat);
     font-weight: 400;
-    line-height: 30px;
-    
+    line-height:30px;
+}
+
+.cases {
+    padding: 0px 20px;
+}
+
+.cases__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cases__container__box {
+    width: 33%;
+    background-color: #212121;
+    padding: 8px;
+}
+
+.cases__container__box img {
+    width: 100%;
+}
+.cases__container__box h2{
+    color: #FFF;
+    font-family: "LEMON MILK";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 8px 0px;
+}
+
+.cases__container__box p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+
+.cases__container__box a{
+    display: flex;
+    padding: 14px 0;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 100px;
+    color: white;
+    font-family: var(--montserrat);
+    transition: .8s;
+    font-weight: 500;
+}
+
+.cases__container__box a:hover{
+    background-color: white;
+    color: #212121;
+}
+
+.cases__title {
+    color: #FFF;
+    font-family: "LEMON MILK";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+
+@keyframes colorChange {
+    0% {
+        color: white;
+    }
+    50% {
+        color: #060606;
+    }
+    100% {
+        color: white;
+    }
+}
+
+.banner__items p {
+    animation: colorChange 5s ease-in-out infinite;
 }

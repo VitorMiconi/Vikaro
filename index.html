@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>VIKARO</title>
 </head>
 <body>
@@ -30,26 +31,26 @@
         </nav>
     </header>
     <section class="title-container">
-        <div class="title-container__year-time">
-            <p class="paragraph">VKR <strong>2024</strong></p>
-            <p class="paragraph montserrat"><strong class="italic">BR </strong>00:00 AM</p>
+        <div class="title-container__year-time">    
+            <p class="paragraph" data-aos="fade-right" data-aos-duration="1000">VKR <strong>2024</strong></p>
+            <p class="paragraph montserrat"><strong class="italic" data-aos="fade-left" data-aos-duration="1000">BR </strong>00:00 AM</p>
         </div>
         <div class="title-container__phrases">
-            <h2 class="subtitle">WE CREATE REMARKABLE<br>AND EXCITING DIGITAL<br>ADVENTURES</h2>
-            <img src="/img/star-square.svg" alt="">
-            <h2 class="subtitle end-text">THAT MAKE<br>A LASTING<br>IMPRESSION</h2>
+            <h2 class="subtitle" data-aos="fade-right" data-aos-duration="1000">WE CREATE REMARKABLE<br>AND EXCITING DIGITAL<br>ADVENTURES</h2>
+            <img src="/img/star-square.svg" alt=""data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="subtitle end-text" data-aos="fade-left" data-aos-duration="1000">THAT MAKE<br>A LASTING<br>IMPRESSION</h2>
         </div>
         <div class="title-container__end-phrase">
-            <p class="paragraph lemon-milk">EXPERTS IN THE<br>DIGITAL EXPERIENCE</p>
+            <p class="paragraph lemon-milk" data-aos="fade-left" data-aos-duration="1000">EXPERTS IN THE<br>DIGITAL EXPERIENCE</p>
         </div>
         <div class="title-container__main-title">
-            <img class="main-title" src="/img/digital solutions.svg" alt="">
+            <img class="main-title" src="/img/digital solutions.svg" alt="" data-aos="fade-up" data-aos-duration="1000">
         </div>
     </section>
 
     <section class="banner">
         <div class="banner__items">
-            <p class="text">Show more</p>
+            <p class="text" data-aos="fade-right" data-aos-duration="1000">Show more</p>
             <p class="number">"14</p>
         </div>
     </section>
@@ -66,18 +67,45 @@
                     <p class="montserrat-regular">CLIENTS</p>
                 </div>
                 <div class="clients__texts">
-                    <p class="upper paragraph montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolorum, mollitia iste porro ea officia qui accusantium animi modi! Animi tempore delectus doloremque corporis dolorum nam necessitatibus nihil quasi illo!</p>
-                    <p class="upper paragraph montserrat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque reiciendis saepe odio laborum nulla ducimus consequatur hic quas incidunt laudantium, similique assumenda unde? Harum sequi quidem delectus esse maiores quod.</p>
+                    <p class="upper paragraph montserrat"data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolorum, mollitia iste porro ea officia qui accusantium animi modi! Animi tempore delectus doloremque corporis dolorum nam necessitatibus nihil quasi illo!</p>
+                    <p class="upper paragraph montserrat"data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque reiciendis saepe odio laborum nulla ducimus consequatur hic quas incidunt laudantium, similique assumenda unde? Harum sequi quidem delectus esse maiores quod.</p>
                 </div>
             </div>
             <div>
-                <img src="/img/vkrandimage.png" alt="">
+                <img src="/img/vkrandimage.png" alt="" data-aos="fade-up" data-aos-duration="1000">
             </div>
         </div>
     </section>
     
+    <section class="cases">
+        <h1 class="cases__title">Cases</h1>
+        <div class="cases__container">
+            <div class="cases__container__box" data-aos="fade-right" data-aos-duration="1000">
+                <img src="img/cases-box.png" alt="">
+                <h2>Title</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div class="cases__container__box" data-aos="fade-up" data-aos-duration="1000">
+                <img src="img/cases-box.png" alt="">
+                <h2>Title</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div class="cases__container__box" data-aos="fade-left" data-aos-duration="1000">
+                <img src="img/cases-box.png" alt="">
+                <h2>Title</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
 
-
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
 
