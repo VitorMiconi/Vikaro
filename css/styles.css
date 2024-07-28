@@ -363,7 +363,7 @@ a {
     animation: colorChange 5s ease-in-out infinite;
 }
 
-.carrousel {
+.carrousel__container {
     display: flex;
     margin: 20px;
     justify-content: space-between;
@@ -413,4 +413,15 @@ a {
     padding: 20px;
     gap: 20px;
     width: 50%;
+}
+
+.carrousel__title {
+    color: #FFF;
+    font-family: "LEMON MILK";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 20px;
 }
