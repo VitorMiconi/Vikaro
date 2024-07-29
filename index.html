@@ -33,11 +33,15 @@
     <section class="title-container">
         <div class="title-container__year-time">    
             <p class="paragraph" data-aos="fade-right" data-aos-duration="1000">VKR <strong>2024</strong></p>
-            <p class="paragraph montserrat"><strong class="italic" data-aos="fade-left" data-aos-duration="1000">BR </strong>00:00 AM</p>
+            <p class="paragraph montserrat">
+                <strong class="italic" data-aos="fade-left" data-aos-duration="1000">BR </strong><span id="clock">00:00 AM</span>
+            </p>
         </div>
         <div class="title-container__phrases">
             <h2 class="subtitle" data-aos="fade-right" data-aos-duration="1000">WE CREATE REMARKABLE<br>AND EXCITING DIGITAL<br>ADVENTURES</h2>
-            <img src="img/star-square.svg" alt=""data-aos="zoom-in" data-aos-duration="1000">
+            <div class="star-box">
+                <img src="img/star-box-content.png" alt="">
+            </div>
             <h2 class="subtitle end-text" data-aos="fade-left" data-aos-duration="1000">THAT MAKE<br>A LASTING<br>IMPRESSION</h2>
         </div>
         <div class="title-container__end-phrase">
@@ -126,10 +130,14 @@
     <footer class="footer">
 
     </footer>
+    <div class="counter" data-count="340" style="color: white; font-size: ;">0</div>
 
 
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.min.js"></script>
+
+
     <script>
         AOS.init();
 
