@@ -44,6 +44,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    cursor: url('../img/cursor-2.svg'), auto;
 }
 
 ::-webkit-scrollbar {
@@ -465,16 +466,21 @@ a {
     justify-content: flex-end;
 }
 
-
-
 .footer__container__right {
     display: flex;
+    justify-content: end;
     width: 50%;
 }
 
+.footer-img {
+    height: 100%;
+}
 
-
-
+.footer-star__container {
+    display: flex;
+    align-items: end;
+    margin-right: 20px;
+}
 
 .star-box {
     position: relative;
