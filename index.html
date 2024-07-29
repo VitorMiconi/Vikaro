@@ -33,7 +33,9 @@
     <section class="title-container">
         <div class="title-container__year-time">    
             <p class="paragraph" data-aos="fade-right" data-aos-duration="1000">VKR <strong>2024</strong></p>
-            <p class="paragraph montserrat"><strong class="italic" data-aos="fade-left" data-aos-duration="1000">BR </strong>00:00 AM</p>
+            <p class="paragraph montserrat">
+                <strong class="italic" data-aos="fade-left" data-aos-duration="1000">BR </strong><span id="clock">00:00 AM</span>
+            </p>
         </div>
         <div class="title-container__phrases">
             <h2 class="subtitle" data-aos="fade-right" data-aos-duration="1000">WE CREATE REMARKABLE<br>AND EXCITING DIGITAL<br>ADVENTURES</h2>
@@ -101,7 +103,6 @@
         </div>
     </section>
 
-
     <section class="carrousel">
         <h1 class="carrousel__title">SERVICES</h1>
         <div class="carrousel__container">
@@ -124,15 +125,39 @@
     </section>
 
     <footer class="footer">
-
+        <div class="footer__container">
+            <div class="footer__container__left">
+                <div>
+                    <div><img src="img/vikaro-logo-footer.png" alt=""></div>
+                    <div class="footer-info">
+                        <div class="footer-info__links">
+                            <a class="paragraph" href="">HOME</a>
+                            <a class="paragraph" href="">ABOUT</a>
+                            <a class="paragraph" href="">CASES</a>
+                            <a class="paragraph" href="">SERVICES</a>
+                        </div>
+                        <div class="footer-info__links">
+                            <p>(11) 94440-0079</p>
+                            <p class="upper">contato@vikaro.com.br</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-rights">
+                    <p class="montserrat upper">Vikaro ® 2024 All rights reserved</p>
+                </div>
+            </div>
+            <div class="footer__container__right">
+                <div class="footer-star__container"><img src="img/star-footer.png" alt=""></div>
+                <div class="footer-background__container"><img src="img/footer-background-right.png" alt=""></div>
+            </div>
+        </div>
     </footer>
-
 
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.7/dist/countUp.min.js"></script>
     <script>
         AOS.init();
-
     </script>
 </body>
 </html>

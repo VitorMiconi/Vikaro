@@ -368,7 +368,6 @@ a {
     margin: 20px;
     justify-content: space-between;
     background-color: var(--text-white);
-    width: 100%;
 }
 
 .carrousel__container__left {
@@ -403,7 +402,7 @@ a {
 }
 
 .carrousel__container__right {
-    background-image: url(/img/carrousel-img.png);
+    background-image: url(../img/carrousel-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
@@ -428,5 +427,50 @@ a {
     text-transform: uppercase;
     margin: 20px;
 }
+
+.footer {
+    background-color: var(--background-black);
+    width: 100%;
+    height: 50vh;
+    color: var(--text-white);
+}
+
+.footer__container {
+    display: flex;
+    padding: 20px;
+    height: 50vh;
+}
+
+.footer__container__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-info {
+    margin-top: 40px;
+    display: flex;
+}
+
+.footer-info__links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-rights {
+    justify-content: flex-end;
+}
+
+
+
+.footer__container__right {
+    display: flex;
+    width: 50%;
+}
+
+
+
 
 
