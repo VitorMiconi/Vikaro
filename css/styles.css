@@ -37,7 +37,8 @@
 body {
     min-height: 100vh;
     background-color: #060606;
-    overflow-x: hidden
+    overflow-x: hidden;
+    cursor: url('../img/cursor.svg'), auto;
 }
 
 a {
@@ -257,7 +258,7 @@ a {
 .clients__texts {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Garantir que os textos estejam no final do contêiner */
+    justify-content: flex-end; 
 }
 
 .clients__strong {
@@ -428,6 +429,7 @@ a {
     margin: 20px;
 }
 
+
 .footer {
     background-color: var(--background-black);
     width: 100%;
@@ -474,3 +476,35 @@ a {
 
 
 
+.star-box {
+    position: relative;
+    display: inline-block;
+}
+
+
+.star-box img {
+    display: block;
+}
+
+.star-box::before {
+    content: url('../img/star-box.svg');
+    position: absolute;
+    top: 24%;
+    left: 14%;
+    animation: pulsar 3s infinite;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
