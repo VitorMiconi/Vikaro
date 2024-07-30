@@ -381,6 +381,7 @@ a {
     margin: 40px 20px 20px 20px;
     justify-content: space-between;
     background-color: var(--text-white);
+    height: 70vh;
 }
 
 .carrousel__container__left {
@@ -418,7 +419,6 @@ a {
     background-image: url(../img/carrousel-img.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
     width: 50%;
 }
 

@@ -18,14 +18,12 @@ setInterval(updateClock, 1000);
 
 updateClock();
 
-
 let arrowLeft = document.getElementById('arrow-left');
 let arrowRight = document.getElementById('arrow-right');
 let servicesTitle = document.getElementById('carrousel-subtitle');
 let textCarrouselUp = document.getElementById('p-up');
 let textCarrouselDown = document.getElementById('p-down');
 let image = document.getElementById('img-carrousel');
-
 
 const carrouselItems = [
     {
