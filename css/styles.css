@@ -548,6 +548,12 @@ a {
     font-weight: bold;
 }
 
+.vikaro-separated-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* ou 'contain' dependendo da necessidade */   
+}
+
 
 
 @keyframes pulsar {
