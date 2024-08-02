@@ -285,22 +285,17 @@ a {
     padding-top: 20px;
 }
 
-.cases__container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.swiper-container {
+    width: 100%;
+    padding: 20px 0;
 }
 
 .cases__container__box {
-    width: 33%;
     background-color: #212121;
-    padding: 8px;
-}
-
-.cases__container__box img {
-    width: 100%;
-}
-.cases__container__box{
+    padding-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
     color: #FFF;
     font-family: "LEMON MILK";
     font-size: 1.2rem;
@@ -308,10 +303,27 @@ a {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    margin: 20px 20px 0px 20px;
 }
 
-.cases__container__box p{
+.cases__container__box img {
+    width: 100%;
+}
+
+.cases__container__box .content {
+    position: absolute;
+    bottom: -100%; /* Esconde o conteúdo inicialmente */
+    left: 0;
+    right: 0;
+    background-color: #212121;
+    padding: 20px;
+    transition: bottom 0.4s ease-in-out;
+}
+
+.cases__container__box:hover .content {
+    bottom: 0; /* Mostra o conteúdo ao passar o mouse */
+}
+
+.cases__container__box p {
     color: #FFF;
     font-family: Montserrat;
     font-size: 0.8rem;
@@ -322,9 +334,9 @@ a {
     margin-bottom: 14px;
 }
 
-.cases__container__box a{
+.cases__container__box a {
     display: flex;
-    padding: 14px 0;
+    padding: 8px 0;
     justify-content: center;
     border: solid 1px white;
     border-radius: 0px;
@@ -334,7 +346,7 @@ a {
     font-weight: 500;
 }
 
-.cases__container__box a:hover{
+.cases__container__box a:hover {
     background-color: white;
     color: #212121;
 }
@@ -355,6 +367,8 @@ a {
     font-family: var(--lemon-milk);
     font-weight: normal;
 }
+
+
 
 @keyframes colorChange {
     0% {
