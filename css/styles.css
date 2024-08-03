@@ -607,7 +607,7 @@ a {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 830px) {
     .end-text, .experts-phrase {
         display: none;
     }
@@ -704,7 +704,21 @@ a {
 
     .vikaro-separated-img {
         width: 100vw;
-        display: none;
+    }
+
+    .footer__container, .footer__container__left, .footer__container__right {
+        height: 30vh;
+    }
+
+    .footer__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer {
+        height: 35vh;
     }
 
     .cases {
