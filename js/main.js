@@ -18,6 +18,20 @@ setInterval(updateClock, 1000);
 
 updateClock();
 
+
+function toggleMenu() {
+    let menu = document.getElementById('mobile-menu');
+    let icon = document.getElementById('menu-icon');
+    if (menu.classList.contains('open')) {
+        menu.classList.remove('open');
+        icon.src = "../img/menu.svg";
+    } else {
+        menu.classList.add('open');
+        icon.src = "../img/menu-closed.svg";
+    }
+}  
+
+
 let arrowLeft = document.getElementById('arrow-left');
 let arrowRight = document.getElementById('arrow-right');
 let servicesTitle = document.getElementById('carrousel-subtitle');

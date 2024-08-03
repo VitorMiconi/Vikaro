@@ -561,6 +561,10 @@ a {
     font-weight: bold;
 }
 
+.ham-menu-btn {
+    display: none;
+}
+
 
 
 @keyframes pulsar {
@@ -588,6 +592,18 @@ a {
   .hidden {
     opacity: 0;
   }
+
+.ham-menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#mobile-menu {
+    position: relative;
+	display: none;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -642,6 +658,18 @@ a {
     .subtitle {
         line-height: 28px;
     }
+
+    .ham-menu-btn {
+        display: block;
+    }
+
+    #mobile-menu.open {
+        position: absolute;
+        display: block; /* Show menu when open */
+    }
+    
+
+    
         
   
 }
