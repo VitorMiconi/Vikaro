@@ -120,7 +120,7 @@ a {
 .subtitle {
     font-family: var(--lemon-milk);
     font-weight: bold;
-    font-size: clamp(1.5rem, 2.5vw, 2.5rem); /* A fonte variará entre 12px e 18px */
+    font-size: clamp(1.2rem, 2.5vw, 2.5rem); /* A fonte variará entre 12px e 18px */
     line-height: 40px;
 }
 
@@ -362,7 +362,7 @@ a {
 }
 
 .cases__subtitle {
-    font-size: clamp(0.4rem, 1.8vw, 1.2rem); /* A fonte variará entre 12px e 18px */
+    font-size: clamp(0.2rem, 1.8vw, 1.2rem); /* A fonte variará entre 12px e 18px */
     font-family: var(--lemon-milk);
     font-weight: normal;
 }
@@ -588,5 +588,60 @@ a {
   .hidden {
     opacity: 0;
   }
+
+
+@media only screen and (max-width: 768px) {
+    .end-text, .experts-phrase {
+        display: none;
+    }
+
+    .banner {
+        height: 25vh;
+        background-size: cover;
+    }
+
+    .vkr-about-img {
+        display: none;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .back-about {
+        display: none;
+    }
+
+    .about-container__items {
+        padding: 0;
+    }
+
+    .clients {
+        width: 100%;
+    }
+
+    .clients__number {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/about-background-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 25vh;
+        width: 100%;
+        color: var(--background-black);
+    }
+
+    .clients__texts {
+        margin: 20px;
+    }
+
+    .num-clients-text {
+        padding: 10px 20px 5px 20px;
+    }
+
+    .subtitle {
+        line-height: 28px;
+    }
+        
   
-  
+}
