@@ -387,6 +387,7 @@ a {
 
 .carrousel {
     padding-top: 20px;
+    
 }
 
 .carrousel__container {
@@ -395,6 +396,7 @@ a {
     justify-content: space-between;
     background-color: var(--text-white);
     height: 70vh;
+    width: 100vw;
 }
 
 .carrousel__container__left {
@@ -703,13 +705,17 @@ a {
     .vikaro-separated-img {
         width: 100vw;
     }
+
+    .cases {
+        display: none;
+    }
     
     .carrousel__container__text {
         display: flex;
         flex-direction: row;
         padding: 20px;
         gap: 20px;
-        width: 50%;
+        width: 100vw;
     }
 
     .carrousel__container {
@@ -723,6 +729,7 @@ a {
         padding: 10px;
         
     }
+
 
     .carrousel__arrows {
         gap: 20px;
