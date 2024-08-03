@@ -693,7 +693,50 @@ a {
         gap: 5px;
         font-size: 20px;
     }
+
     
+
+    .footer-background__container {
+        display: none;
+    }
+
+    .vikaro-separated-img {
+        width: 100vw;
+    }
+    
+    .carrousel__container__text {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        gap: 20px;
+        width: 50%;
+    }
+
+    .carrousel__container {
+        display: block;
+    }
+
+    .carrousel__container__title {
+        padding: 0;
+        width: 100vw;
+        text-align: center;
+        padding: 10px;
+        
+    }
+
+    .carrousel__arrows {
+        gap: 20px;
+        width: 30vw;
+    }
+
+    .carrousel__title-arrow {
+        width: 60vw;
+    }
+
+    .arrow-img {
+        width: 10px;
+    }
+
 
     
         
