@@ -712,7 +712,7 @@ a {
     }
 
     .carrousel__container__left {
-        height: 25vh;
+        height: 30vh;
     }
     
     .carrousel__container__text {
@@ -731,7 +731,7 @@ a {
     }
 
     .carrousel__container__right {
-        height: 25vh;
+        height: 30vh;
         width: 100%;
     }
 
