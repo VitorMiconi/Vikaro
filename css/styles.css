@@ -287,7 +287,6 @@ a {
 
 .swiper-container {
     width: 100%;
-    padding: 20px 0;
 }
 
 .cases__container__box {
@@ -295,7 +294,7 @@ a {
     padding-bottom: 8px;
     position: relative;
     overflow: hidden;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     color: #FFF;
     font-family: "LEMON MILK";
     font-size: 1.2rem;
@@ -578,3 +577,16 @@ a {
         opacity: 1;
     }
 }
+
+/* Defina a transição */
+/* Defina a transição */
+#carrousel-subtitle, #p-up, #p-down, #img-carrousel {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  

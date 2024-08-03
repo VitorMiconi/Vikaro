@@ -32,7 +32,6 @@ const carrouselItems = [
         textCarrouselDown: "Using the latest technologies and agile methodologies, we ensure the delivery of projects on time and within budget. Our mission is to strengthen companies online presence, increasing their visibility and driving business growth with effective and customized digital solutions.",
         image: 'carrousel-img.png'
     },
-
     {
         servicesTitle: "PROFESSIONAL DESIGN",
         textCarrouselUp: "In addition to web development, VIKARO is also a web design agency dedicated to creating unique and impactful digital experiences. Our team of talented designers works with precision and creativity to develop visual interfaces that not only attract but also engage users. We offer a full range of design services, from creating visual identities to building responsive websites, always focusing on usability and aesthetics.",
@@ -45,30 +44,45 @@ const carrouselItems = [
         textCarrouselDown: "We leverage data-driven insights and industry best practices to optimize social media performance and ensure that your brand’s voice resonates across various platforms. By staying ahead of trends and employing strategic approaches, we help businesses foster meaningful connections with their audiences, amplify their message, and ultimately, achieve their marketing goals. At VIKARO, we are committed to transforming social media into a powerful tool for growth and brand success.",
         image: 'back-carrousel-3.png'
     }
-
 ];
 
 let currentIndex = 0;
 
 function updateContent(index) {
-    servicesTitle.textContent = carrouselItems[index].servicesTitle;
-    textCarrouselUp.textContent = carrouselItems[index].textCarrouselUp;
-    textCarrouselDown.textContent = carrouselItems[index].textCarrouselDown;
-    image.style.backgroundImage = `url(../img/${carrouselItems[index].image})`;
+    // Adiciona a classe 'hidden' para ocultar os elementos
+    servicesTitle.classList.add('hidden');
+    textCarrouselUp.classList.add('hidden');
+    textCarrouselDown.classList.add('hidden');
+    image.classList.add('hidden');
+
+    setTimeout(() => {
+        // Atualiza o conteúdo
+        servicesTitle.textContent = carrouselItems[index].servicesTitle;
+        textCarrouselUp.textContent = carrouselItems[index].textCarrouselUp;
+        textCarrouselDown.textContent = carrouselItems[index].textCarrouselDown;
+        image.style.backgroundImage = `url(../img/${carrouselItems[index].image})`;
+
+        // Remove a classe 'hidden' para mostrar os elementos com a nova informação
+        servicesTitle.classList.remove('hidden');
+        textCarrouselUp.classList.remove('hidden');
+        textCarrouselDown.classList.remove('hidden');
+        image.classList.remove('hidden');
+    }, 500); // Tempo de espera deve ser igual à duração da transição
 }
 
 arrowRight.addEventListener('click', function() {
-    currentIndex = (currentIndex + 1) %  carrouselItems.length;
+    currentIndex = (currentIndex + 1) % carrouselItems.length;
     updateContent(currentIndex);
 });
+
 arrowLeft.addEventListener('click', function() {
     if (currentIndex === 0) {
         currentIndex = carrouselItems.length - 1;
     } else {
-        currentIndex = (currentIndex - 1) %  carrouselItems.length;
+        currentIndex = (currentIndex - 1) % carrouselItems.length;
     }
     updateContent(currentIndex);
-})
+});
 
 
 
