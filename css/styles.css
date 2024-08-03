@@ -600,7 +600,6 @@ a {
 }
 
 #mobile-menu {
-    position: relative;
 	display: none;
 }
 
@@ -666,6 +665,33 @@ a {
     #mobile-menu.open {
         position: absolute;
         display: block; /* Show menu when open */
+        margin-top: 3rem;
+    }
+
+    .header__logo {
+        width: 50%;
+    }
+
+    .header__mobile-container {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobile-list {
+        position: relative;
+        width: 91vw;
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        list-style-type: none;
+        font-family: var(--montserrat);
+        background-color:#212121;
+        opacity: 100;
+        z-index: 2;
+        gap: 5px;
+        font-size: 20px;
     }
     
 
