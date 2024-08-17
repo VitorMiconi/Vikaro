@@ -290,7 +290,7 @@ a {
 }
 
 .cases__container__box {
-    background-color: #212121;
+    background-color: #060606;
     padding-bottom: 8px;
     position: relative;
     overflow: hidden;
@@ -785,4 +785,53 @@ a {
     
         
   
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    position: relative;
+    overflow: hidden;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.swiper-slide:hover .overlay {
+    opacity: 1;
+}
+.overlay-content {
+    width: 60%;
+    text-align: center;
+}
+.overlay h2 {
+    margin: 0 0 10px;
+}
+.overlay p {
+    margin: 0 0 20px;
+}
+.overlay button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }

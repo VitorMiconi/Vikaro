@@ -99,4 +99,32 @@ arrowLeft.addEventListener('click', function() {
 });
 
 
+var swiper = new Swiper('.swiper-container', {
+    autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    slidesPerView: 3, 
+
+    
+    breakpoints: {
+        
+        768: {
+            slidesPerView: 1, 
+        },
+    }
+});
+
+
+document.querySelector('.swiper-container').addEventListener('mouseenter', function () {
+    swiper.autoplay.stop();
+});
+
+
+document.querySelector('.swiper-container').addEventListener('mouseleave', function () {
+    swiper.autoplay.start();
+});
+
+
 
