@@ -38,13 +38,11 @@ body {
     min-height: 100vh;
     background-color: #060606;
     overflow-x: hidden;
-    cursor: url('../img/cursor.svg'), auto;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-    cursor: url('../img/cursor-2.svg'), auto;
 }
 
 ::-webkit-scrollbar {
