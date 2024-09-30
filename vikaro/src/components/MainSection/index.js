@@ -4,13 +4,14 @@ const MainSection = () => {
     return (
         <div className="bg-black w-full h-screen flex justify-center items-center text-white">
             <div className='flex flex-col items-center gap-6'>
+                <img className='absolute left-0 top-40' src="/img/main-star.png" alt="Vikaro Star"></img>
                 <h2 className='font-analogist text-4xl'>( DESENVOLVIMENTO FRONT-END )</h2>
                 <div className='flex items-center gap-2'>
                     <p className='font-analogist absolute ml-36 mt-40 text-4xl'>by</p>
                     <div className='flex flex-col gap-6'>
                         <h1 className='font-lemon text-center text-8xl leading'>SOLUÇÕES WEB</h1>
                         <h1 className='font-lemon text-center text-8xl leading'>VIKARO</h1>
-                    </div>  
+                    </div>
                 </div>
                 
             </div>
