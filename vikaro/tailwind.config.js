@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        lemon: ['Lemon Milk', 'sans-serif'], // Adiciona a fonte Lemon Milk ao Tailwind
+        lemon: ['Lemon Milk', 'sans-serif'], // Adiciona a fonte Lemon Milk ao Tailwind,
+        analogist: ['"Analogist"', 'sans-serif'], // Altere 'sans-serif' para a fonte padrão que deseja usar como fallback
       },
     },
   },
