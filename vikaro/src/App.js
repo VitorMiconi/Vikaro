@@ -1,9 +1,13 @@
 import Header from "./components/Header";
+import MainSection from "./components/MainSection";
 
 
 function App() {
   return (
-    <Header></Header>
+    <div className="App">
+      <Header></Header>
+      <MainSection></MainSection>
+    </div>
   );
 }
 

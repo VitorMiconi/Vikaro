@@ -1,4 +1,4 @@
-function HeaderNav() {
+const HeaderNav = () => {
     return (
         <nav>
             <ul className="flex items-center space-x-4">
