@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('assets/fonts/LEMONMILK-Light.otf') format('truetype');
+    font-weight: 300; /* Para a versão Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('assets/fonts/LEMONMILK-Medium.otf') format('truetype');
+    font-weight: 500; /* Para a versão Medium */
+    font-style: normal;
+}
+
+
+  
+  
