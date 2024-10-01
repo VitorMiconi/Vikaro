@@ -4,9 +4,9 @@ import MainSection from "./components/MainSection";
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <MainSection></MainSection>
+    <div className="App bg-black">
+      <Header/>
+      <MainSection/>
     </div>
   );
 }
