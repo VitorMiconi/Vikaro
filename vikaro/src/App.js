@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import MainSection from "./components/MainSection";
 import BigVikaro from "./components/BigVikaro";
+import AboutSection from "./components/AboutSection";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <MainSection/>
       <BigVikaro></BigVikaro>
+      <AboutSection></AboutSection>
     </div>
   );
 }
