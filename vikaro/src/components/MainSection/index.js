@@ -1,5 +1,6 @@
 import React from 'react';
-import Clock from "../Clock"
+import Clock from "../Clock";
+import DateComponent from "../DateComponent";
 
 const MainSection = () => {
     return (
@@ -19,7 +20,7 @@ const MainSection = () => {
 
             {/* Relógio colado na parte inferior */}
             <div className='mb-4 flex items-center justify-between w-full px-6 py-2'>
-                <Clock/>
+                <DateComponent></DateComponent>
                 <h2 className='font-lemon font-light'>ROLE PARA BAIXO</h2>
                 <Clock/>
             </div>
