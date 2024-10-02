@@ -6,8 +6,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        lemon: ['Lemon Milk', 'sans-serif'], // Adiciona a fonte Lemon Milk ao Tailwind,
-        analogist: ['"Analogist"', 'sans-serif'], // Altere 'sans-serif' para a fonte padrão que deseja usar como fallback
+        lemon: ['Lemon Milk', 'sans-serif'], 
+        analogist: ['"Analogist"', 'sans-serif'], 
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      backgroundImage: {
+        'custom-pj-1': "url('/public/img/project-1.png')", // Adicionando imagem de fundo personalizada
+        'custom-pj-4': "url('/public/img/project-4.png')", // Adicionando imagem de fundo personalizada
+        'custom-stairs': "url('/public/img/stairs.png')", // Adicionando imagem de fundo personalizada
       },
     },
   },

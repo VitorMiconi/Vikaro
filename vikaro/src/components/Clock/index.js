@@ -13,10 +13,11 @@ const Clock = () => {
 
     return (
         <div>
-            <h1 className='font-lemon text-white'>{time.toLocaleTimeString()}</h1> {/* Exibe o horário formatado */}
+            <h1 className='font-lemon text-white'>
+                {time.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })}
+            </h1> {/* Exibe o horário formatado */}
         </div>
     );
 };
 
 export default Clock;
-
