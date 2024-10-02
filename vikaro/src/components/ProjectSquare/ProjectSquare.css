@@ -1,0 +1,7 @@
+.group {
+    filter: saturate(0);
+}
+
+.group:hover {
+    filter: saturate(1);
+}
