@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         lemon: ['Lemon Milk', 'sans-serif'], 
         analogist: ['"Analogist"', 'sans-serif'], 
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
         'custom-pj-1': "url('/public/img/project-1.png')", // Adicionando imagem de fundo personalizada
