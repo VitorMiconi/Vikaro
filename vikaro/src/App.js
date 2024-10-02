@@ -3,6 +3,7 @@ import MainSection from "./components/MainSection";
 import BigVikaro from "./components/BigVikaro";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectsSection";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <BigVikaro></BigVikaro>
       <AboutSection></AboutSection>
       <ProjectSection/>
+      <Footer></Footer>
     </div>
   );
 }
