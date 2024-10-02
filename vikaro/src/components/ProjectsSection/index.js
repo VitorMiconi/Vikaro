@@ -2,7 +2,7 @@ import ProjectSquare from "../ProjectSquare"
 
 const ProjectSection = () => {
     return (
-        <div className="grid grid-cols-2 gap-4 mx-6 my-4 bg-black">
+        <div className="grid grid-cols-2 gap-4 mx-6 my-6 bg-black h-screen">
             <ProjectSquare backgroundClass="bg-custom-pj-4">ELEVE</ProjectSquare>
             <ProjectSquare backgroundClass="bg-custom-pj-4">ASCEND</ProjectSquare>
             <ProjectSquare backgroundClass="bg-custom-pj-4">SOAR</ProjectSquare>
