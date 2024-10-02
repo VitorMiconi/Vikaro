@@ -13,6 +13,7 @@ module.exports = {
       backgroundImage: {
         'custom-pj-1': "url('/public/img/project-1.png')", // Adicionando imagem de fundo personalizada
         'custom-pj-4': "url('/public/img/project-4.png')", // Adicionando imagem de fundo personalizada
+        'custom-stairs': "url('/public/img/stairs.png')", // Adicionando imagem de fundo personalizada
       },
     },
   },
