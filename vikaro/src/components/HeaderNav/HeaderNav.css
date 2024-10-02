@@ -1,0 +1,18 @@
+nav a {
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.6s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
