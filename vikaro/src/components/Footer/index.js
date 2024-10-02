@@ -19,10 +19,10 @@ const Footer = () => {
                         <a href="#tag"><li>VIKAROAGENCIA@GMAIL.COM</li></a>
                     </ul>
                 </div>
-                <div>
+                <div className="flex justify-center sm:justify-start">
                     <p>VIKARO © 2024</p>
                 </div>
-                <div>
+                <div className="flex justify-center sm:justify-start">
                     <img src="/img/footer-star.svg" alt="Footer Star"></img>
                 </div>
             </div>
