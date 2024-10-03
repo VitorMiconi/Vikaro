@@ -1,6 +1,8 @@
+
 import HeaderNav from "../HeaderNav"
 import BorderButton from "../BorderButton"
 import HamburguerMenu from "../HamburguerMenu"
+
 
 const Header = () => {
     return (
@@ -9,6 +11,7 @@ const Header = () => {
             <HeaderNav/>
             <HamburguerMenu></HamburguerMenu>
             <BorderButton realDisplay={'hidden'} smDisplay={'sm:block'} >CONTATO</BorderButton>
+
         </header>
     )
         

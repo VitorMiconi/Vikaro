@@ -1,26 +1,29 @@
-import Header from "./components/Header";
-import MainSection from "./components/MainSection";
-import BigVikaro from "./components/BigVikaro";
-import AboutSection from "./components/AboutSection";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+import HomePage from "./components/HomePage";
+import SingleProjects from "./SingleProjects";
 
-import ProjectSection from "./components/ProjectsSection";
-import Footer from "./components/Footer";
-import ServicesSection from "./components/ServicesSection";
-import StairsSection from "./components/StairsSection";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage/>
+  },
+  {
+    path: "singleprojects",
+    element: <SingleProjects/>,
+  },
+]);
 
 
 function App() {
   return (
-    <div className="App bg-black relative">
-      <Header/>
-      <MainSection/>
-      <StairsSection></StairsSection>
-      <BigVikaro></BigVikaro>
-      <AboutSection></AboutSection>
-      <ServicesSection></ServicesSection>
-      <ProjectSection/>
-      <Footer></Footer>
-    </div>
+
+    <RouterProvider router={router}/>
+
   );
 }
 
