@@ -10,15 +10,16 @@ const HamburguerMenu = () => {
         className="text-white focus:outline-none relative z-50 font-montserrat block sm:hidden" 
         onClick={() => setOpen(prev => !prev)}
       >
-        {open ? <div className='space-y-2'>
-                    <span className="block h-[1px] w-8 bg-white"></span>
-                    <span className="block h-[1px] w-8 bg-white"></span>
-                    <span className="block h-[1px] w-8 bg-white"></span>
+        {open ? <div className="relative w-8 h-8">
+                    <span className="block h-[1px] w-8 bg-white absolute top-1/2 left-0 transform -translate-y-1/2 rotate-45"></span>
+                    <span className="block h-[1px] w-8 bg-white absolute top-1/2 left-0 transform -translate-y-1/2 -rotate-45"></span>
             </div> : 
-            <div className="relative w-8 h-8">
-                <span className="block h-[1px] w-8 bg-white absolute top-1/2 left-0 transform -translate-y-1/2 rotate-45"></span>
-                <span className="block h-[1px] w-8 bg-white absolute top-1/2 left-0 transform -translate-y-1/2 -rotate-45"></span>
+            <div className='space-y-2'>
+                <span className="block h-[1px] w-8 bg-white"></span>
+                <span className="block h-[1px] w-8 bg-white"></span>
+                <span className="block h-[1px] w-8 bg-white"></span>
             </div>
+            
 } {/* Alterna entre "Abrir" e "Fechar" */}
       </button>
 
