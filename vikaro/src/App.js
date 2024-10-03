@@ -10,7 +10,7 @@ import StairsSection from "./components/StairsSection";
 
 function App() {
   return (
-    <div className="App bg-black">
+    <div className="App bg-black relative">
       <Header/>
       <MainSection/>
       <StairsSection></StairsSection>
