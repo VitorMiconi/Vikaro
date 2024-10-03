@@ -1,5 +1,7 @@
-import HeaderNav from "../HeaderNav"
-import BorderButton from "../BorderButton"
+import HeaderNav from "../HeaderNav";
+import BorderButton from "../BorderButton";
+
+
 
 const Header = () => {
     return (
@@ -7,6 +9,7 @@ const Header = () => {
             <a href="tag"><img src="/icons/vkr-logo.svg" alt="Header VKR Logo"></img></a>
             <HeaderNav/>
             <BorderButton realDisplay={'hidden'} smDisplay={'sm:block'} >CONTATO</BorderButton>
+
         </header>
     )
         
