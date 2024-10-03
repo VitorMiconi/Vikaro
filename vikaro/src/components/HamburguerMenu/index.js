@@ -7,7 +7,7 @@ const HamburguerMenu = () => {
     <>  
       {/* Botão hamburguer que alterna a abertura e fechamento do menu */}
       <button
-        className="text-white focus:outline-none relative z-50 font-montserrat block sm:hidden" 
+        className="text-white focus:outline-none relative z-50 font-montserrat block lg:hidden" 
         onClick={() => setOpen(prev => !prev)}
       >
         {open ? <div className="relative w-8 h-8">

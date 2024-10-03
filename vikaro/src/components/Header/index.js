@@ -10,7 +10,7 @@ const Header = () => {
             <a href="tag" className="z-50"><img src="/icons/vkr-logo.svg" alt="Header VKR Logo"></img></a>
             <HeaderNav/>
             <HamburguerMenu></HamburguerMenu>
-            <BorderButton realDisplay={'hidden'} smDisplay={'sm:block'} >CONTATO</BorderButton>
+            <BorderButton realDisplay={'hidden'} smDisplay={'lg:block'} >CONTATO</BorderButton>
 
         </header>
     )
