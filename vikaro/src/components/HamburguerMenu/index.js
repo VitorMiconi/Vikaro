@@ -24,7 +24,7 @@ const HamburguerMenu = () => {
       </button>
 
       {/* Menu que aparece ou desaparece com base no estado de "open" */}
-      <nav className={`divide-y ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-linear absolute text-start bg-black h-screen w-screen left-0 top-0 py-16 px-6`}>
+      <nav className={`divide-y ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-linear absolute text-start bg-black h-screen w-screen left-0 top-0 py-16 px-6 `}>
         <a href="#projetos" className="py-6 text-white font-montserrat font-light block">
           PROJETOS
         </a>
