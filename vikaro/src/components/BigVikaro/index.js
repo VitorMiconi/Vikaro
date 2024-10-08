@@ -24,7 +24,7 @@ const BigVikaro = () => {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
-      <img className="w-full" src="/img/BigVikaro.svg" alt="Vikaro Name" />
+      <img className="w-full" src="/img/BigVikaro.svg" alt="Vikaro Name" data-aos="fade-right" id="about" />
       <img
         className="absolute top-1/2 left-1/2 transform transition-transform duration-500 ease-out h-3/5" // Transição mais suave e lenta
         style={{

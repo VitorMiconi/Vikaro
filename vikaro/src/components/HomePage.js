@@ -7,9 +7,17 @@ import ProjectSection from "./ProjectsSection";
 import Footer from "./Footer";
 import ServicesSection from "./ServicesSection";
 import StairsSection from "./StairsSection";
+import { useEffect } from 'react';
+import AOS from 'aos';
 
 
 const HomePage = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
+
   return (
     <div className="App bg-black">
       <Header/>

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
+      scrollBehavior: ['responsive'],
+
       fontFamily: {
         lemon: ['Lemon Milk', 'sans-serif'], 
         analogist: ['"Analogist"', 'sans-serif'], 
