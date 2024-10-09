@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div className="font-lemon font-light text-white flex flex-col gap-6" data-aos="fade-down" id="footer">
-            <div className="text-center w-full relative pt-6" >
+            <div className="text-center w-full relative pt-14" >
                 <h2 className="text-4xl block lg:absolute lg:left-2/4 lg:transform lg:-translate-x-1/2">VIKARO</h2>
             </div>
             <div className="w-full flex flex-col lg:flex-row justify-between lg:items-end px-6 py-8 lg:py-0 lg:pb-8 gap-6">

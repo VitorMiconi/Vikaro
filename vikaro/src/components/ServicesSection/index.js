@@ -4,7 +4,7 @@ import BorderButton from "../BorderButton"
 
 const ServicesSection = () => {
     return (
-        <div className="font-light text-white w-full px-6 flex flex-col lg:flex-row gap-6 pb-6" id="services">
+        <div className="font-light text-white w-full px-6 flex flex-col lg:flex-row gap-6 py-6" id="services">
             <div className="w-full lg:w-3/5" data-aos="fade-right">
                 <img className="w-full" src="/img/services-example-2.png" alt="Services Example"></img>
             </div>
