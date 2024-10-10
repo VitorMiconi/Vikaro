@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import HomePage from "./HomePage";
 import SingleGolisk from "./SingleGolisk";
+import SingleSparo from "./SingleSparo";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "golisk",
     element: <SingleGolisk/>,
+  },
+  {
+    path: "sparo",
+    element: <SingleSparo/>,
   },
 ]);
 
