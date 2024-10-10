@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SingleProjects from "./SingleProjects";
+import SingleGolisk from "./SingleGolisk";
 
 const AppRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/single-projects" element={<SingleProjects />} />
+        <Route path="/golisk" element={<SingleGolisk />} />
       </Routes>
     </Router>
   );

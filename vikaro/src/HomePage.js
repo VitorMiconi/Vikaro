@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Header";
-import MainSection from "./MainSection";
-import BigVikaro from "./BigVikaro";
-import AboutSection from "./AboutSection";
-import ProjectSection from "./ProjectsSection";
-import Footer from "./Footer";
-import ServicesSection from "./ServicesSection";
-import StairsSection from "./StairsSection";
+import Header from "./components/Header";
+import MainSection from "./components/MainSection";
+import BigVikaro from "./components/BigVikaro";
+import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectsSection";
+import Footer from "./components/Footer";
+import ServicesSection from "./components/ServicesSection";
+import StairsSection from "./components/StairsSection";
 import { useEffect } from 'react';
 import AOS from 'aos';
 

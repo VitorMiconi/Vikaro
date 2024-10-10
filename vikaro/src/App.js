@@ -4,8 +4,8 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import HomePage from "./components/HomePage";
-import SingleProjects from "./SingleProjects";
+import HomePage from "./HomePage";
+import SingleGolisk from "./SingleGolisk";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     element: <HomePage/>
   },
   {
-    path: "singleprojects",
-    element: <SingleProjects/>,
+    path: "golisk",
+    element: <SingleGolisk/>,
   },
 ]);
 
