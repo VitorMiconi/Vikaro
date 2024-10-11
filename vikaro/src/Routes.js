@@ -13,7 +13,6 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/golisk" element={<SingleGolisk />} />
         <Route path="/sparo" element={<SingleSparo />} />
-        {/* Rota de página não encontrada */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom"; // Importando Link do react-router-dom
 import HeaderNav from "../HeaderNav";
 import BorderButton from "../BorderButton";
 import HamburguerMenu from "../HamburguerMenu";
@@ -36,9 +37,10 @@ const Header = () => {
                 isVisible ? "translate-y-0" : "-translate-y-full"
             }`}
         >
-            <a href="#main-section" className="z-50">
+
+            <Link to="/" className="z-50">
                 <img src="/icons/vkr-logo.svg" alt="Header VKR Logo" />
-            </a>
+            </Link>
             <HeaderNav />
             <HamburguerMenu />
             <BorderButton realDisplay={'hidden'} smDisplay={'lg:block'} hrefLink={'#footer'}>
